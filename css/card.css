@@ -39,3 +39,15 @@
     font-size: 14px;
     text-transform: uppercase;
 }
+.card-info{
+    text-align: center;
+}
+.card-info h1{
+    color: #fff;
+}
+.card-info p{
+    color: #fff;
+    width: 70%;
+    margin: auto;
+
+}
