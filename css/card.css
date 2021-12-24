@@ -1,41 +1,68 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
-.card-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh !important;
-    background-image: linear-gradient(purple,#563d54 );
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh !important;
+  background-image: linear-gradient(purple, #563d54);
 }
 .card-image {
-    margin: auto;
-    margin-top: 20px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
+  margin: auto;
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
 }
-.card-image  img{
-    width: 100%
+.card-image img {
+  width: 100%;
 }
-.main-card{
-    padding: 20px;
-    position: relative;
-    border-radius: 14px;
-    width: 30%;
-    background-color: #444;
-    height: 60%;
+.main-card {
+  padding: 20px;
+  position: relative;
+  border-radius: 14px;
+  width: 30%;
+  background-color: rgb(22, 21, 21);
+  height: 60%;
 }
-.card-status{
-    position: absolute;
-    background-color: rgb(231, 192, 17);
-    padding: 3px 10px;
-    border-radius: 2px;
-    
+.card-status {
+  position: absolute;
+  background-color: rgb(231, 192, 17);
+  padding: 3px 10px;
+  border-radius: 2px;
 }
-.card-status P{
-    font-weight: bold;
-    font-size: 14px;
-    text-transform: uppercase;
+.card-status P {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 5px;
+}
+.btn button {
+  background-color: blueviolet;
+  padding: 9px 18px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  color: white;
+}
+#color {
+  border: solid 2px violet;
+  background-color: rgb(27, 27, 27);
+  color: violet;
+  font-weight: bolder;
+}
+.card-info {
+  color: white;
+  text-align: center;
+}
+.text-info {
+  display: flex;
 }
