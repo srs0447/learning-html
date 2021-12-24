@@ -11,10 +11,11 @@
 .card-image {
   margin: auto;
   margin-top: 20px;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   overflow: hidden;
+  border: 3px solid blueviolet;
 }
 .card-image img {
   width: 100%;
@@ -38,7 +39,9 @@
   font-size: 14px;
   text-transform: uppercase;
 }
-
+.main-card .head {
+  margin-top: 35px;
+}
 .main-card .head h1 {
   margin-top: 14px;
   word-spacing: normal;
