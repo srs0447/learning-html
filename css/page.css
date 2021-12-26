@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main-page {
+  background-color: rgba(245, 245, 245, 0.253);
+  box-shadow: inset 5px 10px 19px 14px rgb(239 164 111 / 22%);
+}
+.card {
+  display: flex;
+  gap: 20px;
+}
+.card1 {
+  display: flex;
+  background-color: white;
+  margin: 40px;
+  height: 315px;
+  width: 550px;
+  box-shadow: 5px 10px 20px 14px rgb(163 169 175 / 37%);
+  border-radius: 18px;
+}
+.card1 .image {
+  margin-top: 90px;
+}
+.card1 .image img {
+  height: 82%;
+}
+.heading {
+  display: flex;
+}
+.heading .icon {
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: 54px;
+  box-shadow: 10px 10px 10px 10px rgba(42, 44, 44, 0.11);
+}
+.heading .icon img {
+  height: 80px;
+}
+.heading .head {
+  margin-top: 59px;
+  padding: 10px;
+}
+.heading .head h1 {
+  font-size: 27px;
+  color: rgba(0, 0, 0, 0.767);
+}
+.heading .head .bar {
+  width: 193px;
+  height: 6px;
+  background-color: cornflowerblue;
+}
+.heading .head .head2 {
+  margin-top: 9px;
+}
+.text .paragraph {
+  margin-top: 37px;
+  width: 300px;
+}
+.text .paragraph p {
+  font-size: 19px;
+  line-height: 33px;
+  font-family: Georgia, "Times New Roman", Tiserif;
+}
+@media screen and (max-width: 600px) {
+  .card {
+    display: block;
+  }
+  .card1 {
+    display: block;
+    height: 530px;
+    width: 400px;
+  }
+  .card1 .image {
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .heading {
+    margin-left: 40px;
+  }
+  .text .paragraph {
+    margin-left: 40px;
+  }
+}
+.card2 {
+  gap: 12px;
+  border-radius: 18px;
+  display: flex;
+  background-color: white;
+  margin: 40px;
+  height: 315px;
+  width: 560px;
+  box-shadow: 5px 10px 20px 14px rgb(163 169 175 / 37%);
+}
+.card2 .image {
+  margin-top: 90px;
+}
+.card2 .image img {
+  height: 83%;
+}
+.heading .ico {
+  background-color: white;
+  margin-top: 54px;
+  box-shadow: 10px 10px 10px 10px rgba(42, 44, 44, 0.11);
+  overflow: hidden;
+  height: 100px;
+  border-radius: 50%;
+}
+.heading .ico img {
+  height: 80px;
+}
+
+@media screen and (max-width: 600px) {
+  .card2 {
+    display: block;
+    height: 530px;
+    width: 400px;
+  }
+  .card2 .image {
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .heading {
+    margin-left: 40px;
+  }
+  .text .paragraph {
+    margin-left: 40px;
+  }
+}
