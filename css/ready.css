@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ready{
+    background-color: turquoise;
+    padding: 2rem;
+    text-align: center;
+}
+.ready h1{
+    color: #fff;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+.ready p{
+    color: #fff;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.ready .btn{
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 30px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: turquoise;
+    transition: all ease .5s;
+}
+.ready .btn:hover{
+    background-color: turquoise;
+    color: #fff;
+    outline: 2px solid #fff;
+}

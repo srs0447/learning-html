@@ -15,6 +15,7 @@
     height: 100px;
     border-radius: 50%;
     overflow: hidden;
+    z-index: 2;
 }
 .card-image  img{
     width: 100%
@@ -26,6 +27,29 @@
     width: 30%;
     background-color: #444;
     height: 60%;
+    overflow: hidden;
+}
+.main-card::after{
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: rgba(255, 0, 0, 0.295);
+    width: 100px;
+    height: 100px;
+    left: 30%;
+    top: -90px;
+    transform: rotate(30deg);
+    z-index: 1;
+  
+}
+.main-card::before{
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: rgba(255, 0, 0, 0.295);
+    width: 100px;
+    height: 100px;
+
 }
 .card-status{
     position: absolute;
