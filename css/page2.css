@@ -27,13 +27,12 @@ button {
   font-family: "Times New Roman", Times, serif;
   border-radius: 7px;
   margin-bottom: 30px;
-  outline: 1px solid;
 }
 button:hover {
+  outline: 1px solid;
   background-color: rgb(46, 173, 173);
   color: aliceblue;
   transition: all ease 0.5s;
-  border: 1px solid white;
 }
 @media screen and (max-width: 600px) {
   .main-page .head h1 {

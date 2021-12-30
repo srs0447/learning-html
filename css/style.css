@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+}
+.main {
+  background-color: rgb(207, 207, 238);
+  align-items: center;
+  text-align: center;
+  height: 200vh;
+}
+.style h1 {
+  font-size: 50px;
+  color: blue;
+  padding-top: 20px;
+}
+.main .lorem h1 {
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.main p {
+  font-family: "Times New Roman", Times, serif;
+  width: 98%;
+  margin: auto;
+  font-size: 18px;
+  padding: 12px;
+  font-size: 19px;
+}
+.main p a {
+  text-decoration: none;
+  color: brown;
+}
+.main .para {
+  background-color: cornflowerblue;
+  color: aliceblue;
+  margin: 10px;
+  padding: 30px;
+}
+.main .para .ittaly a {
+  text-decoration: none;
+  color: rgb(240, 26, 222);
+}
+.main .para .ittali1 a {
+  text-decoration: none;
+  color: pink;
+}
+@media screen and (max-width: 600px) {
+  .main h1 {
+    font-size: 45px;
+  }
+  .main .lorem h1 {
+    font-size: 24px;
+  }
+}
