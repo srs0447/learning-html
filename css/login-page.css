@@ -18,6 +18,7 @@
 }
 .imgcontainer {
   text-align: center;
+  cursor: pointer;
 }
 .login-info input[type="text"],
 input[type="password"] {
@@ -33,8 +34,8 @@ input[type="password"] {
 .login-info button {
   background-image: linear-gradient(
     to right,
-    rgb(36, 117, 240),
-    rgb(195, 0, 255)
+    rgb(245, 92, 194),
+    rgb(102, 71, 241)
   );
   color: white;
   padding: 14px 20px;
@@ -42,7 +43,7 @@ input[type="password"] {
   border: none;
   cursor: pointer;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .imgcontainer img {
   height: 25px;
@@ -54,10 +55,11 @@ input[type="password"] {
 }
 .flg {
   display: flex;
-  justify-content: center;
-  gap: 15px;
+
+  gap: 30px;
   padding: 8px;
 }
+
 .bar {
   width: 40px;
   margin: auto;
@@ -65,7 +67,7 @@ input[type="password"] {
   display: block;
   background-image: linear-gradient(
     to right,
-    rgb(32, 54, 253),
-    rgb(181, 15, 231)
+    rgb(245, 92, 194),
+    rgb(102, 71, 241)
   );
 }
